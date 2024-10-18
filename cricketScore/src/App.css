@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Poppins&family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.Calculator {
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+input {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: #ffffff;
+}
+input::placeholder {
+  color: #ffffff;
+}
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.equal-button {
+  background-color: rgba(243, 99, 10, 0.893);
+}
+/* App.css */
+.image {
+  width: 50px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
